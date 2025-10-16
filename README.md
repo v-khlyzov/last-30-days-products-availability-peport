@@ -7,7 +7,7 @@
 
 ## Этап 1 - Экспорт данных о ежедневной доступности товаров
 Определяем товары, которые были на сайте как минимум 1 день за последние 30 дней. Содержит уникальный ключ «селлер-артикул» и 30 столбцов с бинарными значениями: наличие = 1, отсутствие = 0.
-Выгружается из **ClickHouse** через ноутбук [экспорт доступности товаров (ClickHouse)](https://github.com/v-khlyzov/last-30-days-products-availability-peport/blob/da9a1c4b88c78e0a5d984bc2016f01471677a8b6/jupiter-notebooks/%D0%BF%D0%BE%D1%80%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20(ClickHouse).ipynb)
+Выгружается из **ClickHouse** через ноутбук [экспорт доступности товаров (ClickHouse)](https://github.com/v-khlyzov/last-30-days-products-availability-peport/blob/831873dc3d2c49324fdca185920877087c0bbf4b/jupiter-notebooks/%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20(ClickHouse).ipynb)
 
 ## Этап 2 - Экспорт мастер-данных по товарам
 Данная выгрузка содержит необходимые характеристики товаров (его продавца, наименование, товарную категорию и так далее)
